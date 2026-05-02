@@ -1,0 +1,38 @@
+# J.A.R.V.I.S. Requirements
+
+# Core
+requests>=2.31.0
+
+# Event Bus & Async
+# (asyncio is built-in)
+
+# Local LLM
+# Ollama - install separately from https://ollama.ai
+
+# Voice
+pyttsx3>=2.90
+
+# GUI Automation (optional)
+pyautogui>=0.9.54
+pynput>=1.7.6
+pygetwindow>=0.0.9
+
+# System Monitoring
+psutil>=5.9.0
+
+# Memory & Vector Search
+faiss-cpu>=1.7.4
+
+# Web Scraping (optional)
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Security Tools (external, install via package manager)
+# nmap, aircrack-ng, subfinder, etc.
+
+# Optional: Better STT
+# SpeechRecognition>=3.10.0
+# openai-whisper  # for offline STT
+
+# Optional: Online APIs (set environment variables)
+# groq, google-generativeai, anthropic, openai
